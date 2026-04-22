@@ -14,10 +14,10 @@ ocr_research/
 │   └── preprocess.py          # 텍스트 정제 및 필터링
 │
 ├── 3_analyze/
-│   ├── cooccurrence.py        # ① 키워드 공출현 분석
-│   ├── bertopic_model.py      # ② BERTopic 토픽 모델링
-│   ├── embedding_similarity.py # ③ 임베딩 기반 유사도
-│   └── citation_network.py    # ④ 인용 네트워크 분석
+│   ├── cooccurrence.py        # 1. 키워드 공출현 분석
+│   ├── bertopic_model.py      # 2. BERTopic 토픽 모델링
+│   ├── embedding_similarity.py # 3. 임베딩 기반 유사도
+│   └── citation_network.py    # 4. 인용 네트워크 분석
 │
 ├── 4_visualize/
 │   └── visualize.py           # 통합 시각화
